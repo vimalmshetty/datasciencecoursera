@@ -29,22 +29,22 @@ The script `run_analysis.R` script contains the following functions
 
 ### Varibables 
 #### tidydata()
-  1. imported.ds : stores the imported data returned by import.merge.ds()
-  2. x.mu.sd : stores the calculated measurements data returned by get.mu.and.sd() 
-  3. y.name : stores the activity names returned by get.name()
-  4. combined : produces one combined data
-  5. tidy.ds : stores the final tidy dataset
+  1. `imported.ds` : stores the imported data returned by `import.merge.ds()`
+  2. `x.mu.sd` : stores the calculated measurements data returned by `get.mu.and.sd()` 
+  3. `y.name` : stores the activity names returned by `get.name()`
+  4. `combined` : produces one combined data
+  5. `tidy.ds` : stores the final tidy dataset
 
 #### import.merge.ds()
-  1. x.train : Stores data from `X_train.txt`
-  2. y.train : Stores data from `Y_train.txt`
-  3. subject.train : Stores data from `subject_test.txt`
-  4. x.test : Stores data from `X_test.txt`
-  5. y.test : Stores data from `Y_test.txt`
-  6. subject.test : Stores data from `subject_train.txt`
-  7. merged.x : Stores merged data of `x.train` and `x.test`
-  8. merged.y : Stores merged data of `y.train` and `y.test`
-  9. merged.subject : Stores merged data of `subject.train` and `subject.test`
+  1. `x.train` : Stores data from `X_train.txt`
+  2. `y.train` : Stores data from `Y_train.txt`
+  3. `subject.train` : Stores data from `subject_test.txt`
+  4. `x.test` : Stores data from `X_test.txt`
+  5. `y.test` : Stores data from `Y_test.txt`
+  6. `subject.test` : Stores data from `subject_train.txt`
+  7. `merged.x` : Stores merged data of `x.train` and `x.test`
+  8. `merged.y` : Stores merged data of `y.train` and `y.test`
+  9. `merged.subject` : Stores merged data of `subject.train` and `subject.test`
 
 
 
