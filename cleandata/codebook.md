@@ -23,12 +23,9 @@ The script `run_analysis.R` script contains the following functions
   2. Calculate mean and standard deviation using `get.mu.sd()`. This function takes `imported.ds$x` as the input parameter. Returns the calculated data in a dataset and that will be assigned to `x.mu.sd`.
   3. The activities are labled using the data available in the file `activity_labels.txt`, using the funtion `get.name()`, taking `imported.ds$y` as the input data and produces the column  `y.name` as output.
   4. Name the `imported$sub` as the 'Subject'
-  5. 
-### import.merge.ds()
-### get.mu.and.sd()
-Parameters: xdat : data of 'X' related colums
-### get.name()
-Parameters: ydat : data of 'Y' realted colums for adding activities
-### build.tidy.ds()
-parameters: ds : the final dataset 
+  5. combine the calculated measurements `x.mu.sd`, activity lables `y.name` and subject data into final dataset suign `cbind()` function.
+  6.  Build the tidy dataset using `build.tidy.ds()` funtion, taking `combined` as input and producing `tidy.ds`
+  7.  Finally write the data into a csv file using `write.csv()` and taking `tidy.ds` as data.
+
+
 
