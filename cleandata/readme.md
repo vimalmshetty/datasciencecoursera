@@ -1,4 +1,4 @@
-<i>This repository is for the project of Getting and cleaning the data. This file explains how 'run_analysis.R' script works<i>
+<i>This repository is for the project of Getting and cleaning the data.<i>
 
 ##Problem Statement
 ###INPUT:
