@@ -83,4 +83,3 @@ tidydata  = function(){
   write.csv(tidy.ds, "TIDY_UCI_HAR.csv", row.names=FALSE)
 }
 
-tidydata();
