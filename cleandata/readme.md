@@ -15,3 +15,21 @@
 ###Assumption:
   1. The data is downloaded, unzipped and kept in the present working directory of R under folder 'UCI HAR Dataset '
   2. Change the directory path in the  first line of the code to your present working directory
+
+##Program Walkthrought 
+###Functions
+  1. tidydata
+  2. import.merge.ds
+  3. get.mu.and.sd
+  4. get.name
+  5. build.tidy.ds
+
+### tidydata()
+### import.merge.ds()
+### get.mu.and.sd()
+Parameters: xdat : data of 'X' related colums
+### get.name()
+Parameters: ydat : data of 'Y' realted colums for adding activities
+### build.tidy.ds()
+parameters: ds : the final dataset 
+
