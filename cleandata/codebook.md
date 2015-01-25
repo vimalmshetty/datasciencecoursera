@@ -35,16 +35,16 @@ The script `run_analysis.R` script contains the following functions
   4. combined : produces one combined data
   5. tidy.ds : stores the final tidy dataset
 
-#### import.merge.ds
-  1. x.train
-  2. y.train
-  3. subject.train
-  4. x.test
-  5. y.test
-  6. subject.test
-  7. merged.x
-  8. merged.y
-  9. merged.subject
+#### import.merge.ds()
+  1. x.train : Stores data from `X_train.txt`
+  2. y.train : Stores data from `Y_train.txt`
+  3. subject.train : Stores data from `subject_test.txt`
+  4. x.test : Stores data from `X_test.txt`
+  5. y.test : Stores data from `Y_test.txt`
+  6. subject.test : Stores data from `subject_train.txt`
+  7. merged.x : Stores merged data of `x.train` and `x.test`
+  8. merged.y : Stores merged data of `y.train` and `y.test`
+  9. merged.subject : Stores merged data of `subject.train` and `subject.test`
 
 
 
