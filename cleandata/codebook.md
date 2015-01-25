@@ -19,9 +19,11 @@ The script `run_analysis.R` psuedocode
 The script `run_analysis.R` script contains the following functions
 ### tidydata()
   This function works as the main function calls all the other function. Steps are as follows:
-    1. Import and and merge dataset using `import.merge.ds()`
+    1. Import and and merge dataset using `import.merge.ds()` and store the data into `imported.ds`
     2. Calculate mean and standard deviation using `get.mu.sd()`. This function takes `imported.ds$x` as the input parameter. Returns the calculated data in a dataset and that will be assigned to `x.mu.sd`.
-    3. 
+    3. The activities are labled using the data available in the file `activity_labels.txt`, using the funtion `get.name()`, taking `imported.ds$y` as the input data and produces the column  `y.name` as output.
+    4. Name the `imported$sub` as the 'Subject'
+    5.
 ### import.merge.ds()
 ### get.mu.and.sd()
 Parameters: xdat : data of 'X' related colums
