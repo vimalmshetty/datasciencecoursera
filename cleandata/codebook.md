@@ -28,23 +28,23 @@ The script `run_analysis.R` script contains the following functions
   7.  Finally write the data into a csv file using `write.csv()` and taking `tidy.ds` as data.
 
 ### Varibables 
-a. tidydata()
-1. imported.ds : stores the imported data returned by import.merge.ds()
-2. x.mu.sd : stores the calculated measurements data returned by get.mu.and.sd() 
-3. y.name : stores the activity names returned by get.name()
-4. combined : produces one combined data
-5. tidy.ds : stores the final tidy dataset
+#### tidydata()
+  1. imported.ds : stores the imported data returned by import.merge.ds()
+  2. x.mu.sd : stores the calculated measurements data returned by get.mu.and.sd() 
+  3. y.name : stores the activity names returned by get.name()
+  4. combined : produces one combined data
+  5. tidy.ds : stores the final tidy dataset
 
-b. import.merge.ds
-1. x.train
-2. y.train
-3. subject.train
-4. x.test
-5. y.test
-6. subject.test
-7. merged.x
-8. merged.y
-9. merged.subject
+#### import.merge.ds
+  1. x.train
+  2. y.train
+  3. subject.train
+  4. x.test
+  5. y.test
+  6. subject.test
+  7. merged.x
+  8. merged.y
+  9. merged.subject
 
 
 
