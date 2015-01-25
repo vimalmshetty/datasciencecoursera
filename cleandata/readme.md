@@ -34,13 +34,6 @@ After the merge operation, mean and standard deviation features are extracted fo
 
 Next, the activity labels are replaced with descriptive activity names, defined in `activity_labels.txt` in the original data folder.
 
-The final step creates a tidy data set with the average of each variable for each activity and each subject. 10299 instances are split into 180 groups (30 subjects and 6 activities) and 66 mean and standard deviation features are averaged for each group. The resulting data table has 180 rows and 66 columns. The tidy data set is exported to `UCI_HAR_tidy.csv` where the first row is the header containing the names for each column.
-### tidydata()
-### import.merge.ds()
-### get.mu.and.sd()
-Parameters: xdat : data of 'X' related colums
-### get.name()
-Parameters: ydat : data of 'Y' realted colums for adding activities
-### build.tidy.ds()
-parameters: ds : the final dataset 
+The final step creates a tidy data set with the average of each variable for each activity and each subject. 10299 instances are split into 180 groups (30 subjects and 6 activities) and 66 mean and standard deviation features are averaged for each group. The resulting data table has 180 rows and 66 columns. The tidy data set is exported to `TIDY_UCI_HAR.csv` where the first row is the header containing the names for each column.
+
 
